@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37300A5901723E0F7BC8AA57 /* libPods-CeFuBaoDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DACE6B7D5116354BB937BF9D /* libPods-CeFuBaoDemoTests.a */; };
+		5B049AB321ACCDC600E58A6D /* PlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B049AB221ACCDC600E58A6D /* PlaySound.m */; };
+		5B15FB2921A68DD400394A29 /* ImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15FB2821A68DD400394A29 /* ImageUtility.m */; };
+		5B15FB2C21A6924E00394A29 /* UIImage+OrientationUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B15FB2B21A6924E00394A29 /* UIImage+OrientationUp.m */; };
+		5B71D23521AB8953009F96ED /* TestSkinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D23421AB8953009F96ED /* TestSkinView.m */; };
+		5B71D24321ABE443009F96ED /* aim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23921ABE443009F96ED /* aim.mp3 */; };
+		5B71D24421ABE443009F96ED /* more_near.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23A21ABE443009F96ED /* more_near.mp3 */; };
+		5B71D24521ABE443009F96ED /* use_back_camera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23B21ABE443009F96ED /* use_back_camera.mp3 */; };
+		5B71D24621ABE443009F96ED /* aim_uncapture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23C21ABE443009F96ED /* aim_uncapture.mp3 */; };
+		5B71D24721ABE443009F96ED /* ic_skin_analysis_step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23D21ABE443009F96ED /* ic_skin_analysis_step2.png */; };
+		5B71D24821ABE443009F96ED /* ic_skin_analysis_step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23E21ABE443009F96ED /* ic_skin_analysis_step3.png */; };
+		5B71D24921ABE443009F96ED /* ic_skin_analysis_step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D23F21ABE443009F96ED /* ic_skin_analysis_step1.png */; };
+		5B71D24A21ABE443009F96ED /* nicety.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D24021ABE443009F96ED /* nicety.mp3 */; };
+		5B71D24B21ABE443009F96ED /* short_nicety.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D24121ABE443009F96ED /* short_nicety.mp3 */; };
+		5B71D24C21ABE443009F96ED /* more_far.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B71D24221ABE443009F96ED /* more_far.mp3 */; };
+		5BE19BC921A4F7BC003545F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE19BC821A4F7BC003545F6 /* AppDelegate.m */; };
+		5BE19BCC21A4F7BC003545F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE19BCB21A4F7BC003545F6 /* ViewController.m */; };
+		5BE19BCF21A4F7BC003545F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE19BCD21A4F7BC003545F6 /* Main.storyboard */; };
+		5BE19BD121A4F7BD003545F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE19BD021A4F7BD003545F6 /* Assets.xcassets */; };
+		5BE19BD421A4F7BD003545F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE19BD221A4F7BD003545F6 /* LaunchScreen.storyboard */; };
+		5BE19BD721A4F7BD003545F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE19BD621A4F7BD003545F6 /* main.m */; };
+		5BE19BE121A4F7BD003545F6 /* CeFuBaoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE19BE021A4F7BD003545F6 /* CeFuBaoDemoTests.m */; };
+		5BE19BEC21A4F7BD003545F6 /* CeFuBaoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE19BEB21A4F7BD003545F6 /* CeFuBaoDemoUITests.m */; };
+		5BE1DED421A65778004705B1 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1DED321A65778004705B1 /* CameraViewController.m */; };
+		698E1777BAA233DEA7736F21 /* libPods-CeFuBaoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D9A4378813813443949A39 /* libPods-CeFuBaoDemo.a */; };
+		FE9357672D1AA09EE1C402FB /* libPods-CeFuBaoDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1072E1CA3C29BACE3C746E /* libPods-CeFuBaoDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE19BDD21A4F7BD003545F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE19BBC21A4F7BC003545F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE19BC321A4F7BC003545F6;
+			remoteInfo = CeFuBaoDemo;
+		};
+		5BE19BE821A4F7BD003545F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE19BBC21A4F7BC003545F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE19BC321A4F7BC003545F6;
+			remoteInfo = CeFuBaoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EE022E985439C3F29108B9 /* Pods-CeFuBaoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemoTests/Pods-CeFuBaoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B049AB121ACCDC600E58A6D /* PlaySound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaySound.h; sourceTree = "<group>"; };
+		5B049AB221ACCDC600E58A6D /* PlaySound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaySound.m; sourceTree = "<group>"; };
+		5B15FB2721A68DD400394A29 /* ImageUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtility.h; sourceTree = "<group>"; };
+		5B15FB2821A68DD400394A29 /* ImageUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtility.m; sourceTree = "<group>"; };
+		5B15FB2A21A6924E00394A29 /* UIImage+OrientationUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+OrientationUp.h"; sourceTree = "<group>"; };
+		5B15FB2B21A6924E00394A29 /* UIImage+OrientationUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OrientationUp.m"; sourceTree = "<group>"; };
+		5B71D23321AB8953009F96ED /* TestSkinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSkinView.h; sourceTree = "<group>"; };
+		5B71D23421AB8953009F96ED /* TestSkinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSkinView.m; sourceTree = "<group>"; };
+		5B71D23621AB8C1A009F96ED /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5B71D23721ABC8B2009F96ED /* LMConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMConst.h; sourceTree = "<group>"; };
+		5B71D23921ABE443009F96ED /* aim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aim.mp3; sourceTree = "<group>"; };
+		5B71D23A21ABE443009F96ED /* more_near.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = more_near.mp3; sourceTree = "<group>"; };
+		5B71D23B21ABE443009F96ED /* use_back_camera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = use_back_camera.mp3; sourceTree = "<group>"; };
+		5B71D23C21ABE443009F96ED /* aim_uncapture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aim_uncapture.mp3; sourceTree = "<group>"; };
+		5B71D23D21ABE443009F96ED /* ic_skin_analysis_step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_skin_analysis_step2.png; sourceTree = "<group>"; };
+		5B71D23E21ABE443009F96ED /* ic_skin_analysis_step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_skin_analysis_step3.png; sourceTree = "<group>"; };
+		5B71D23F21ABE443009F96ED /* ic_skin_analysis_step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_skin_analysis_step1.png; sourceTree = "<group>"; };
+		5B71D24021ABE443009F96ED /* nicety.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nicety.mp3; sourceTree = "<group>"; };
+		5B71D24121ABE443009F96ED /* short_nicety.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = short_nicety.mp3; sourceTree = "<group>"; };
+		5B71D24221ABE443009F96ED /* more_far.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = more_far.mp3; sourceTree = "<group>"; };
+		5BE19BC421A4F7BC003545F6 /* CeFuBaoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeFuBaoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE19BC721A4F7BC003545F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BE19BC821A4F7BC003545F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BE19BCA21A4F7BC003545F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BE19BCB21A4F7BC003545F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BE19BCE21A4F7BC003545F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE19BD021A4F7BD003545F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE19BD321A4F7BD003545F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE19BD521A4F7BD003545F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE19BD621A4F7BD003545F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE19BDC21A4F7BD003545F6 /* CeFuBaoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeFuBaoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE19BE021A4F7BD003545F6 /* CeFuBaoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeFuBaoDemoTests.m; sourceTree = "<group>"; };
+		5BE19BE221A4F7BD003545F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE19BE721A4F7BD003545F6 /* CeFuBaoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeFuBaoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE19BEB21A4F7BD003545F6 /* CeFuBaoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeFuBaoDemoUITests.m; sourceTree = "<group>"; };
+		5BE19BED21A4F7BD003545F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE1DED221A65778004705B1 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		5BE1DED321A65778004705B1 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		727C6624DC31643BD8FE1277 /* Pods-CeFuBaoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemoTests/Pods-CeFuBaoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		85F747D06CFC0E439B65B8B1 /* Pods-CeFuBaoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemo/Pods-CeFuBaoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9F6798F7B18281156C6862DE /* Pods-CeFuBaoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemo/Pods-CeFuBaoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1072E1CA3C29BACE3C746E /* libPods-CeFuBaoDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CeFuBaoDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF997F148A96E92FBD55764 /* Pods-CeFuBaoDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemoUITests/Pods-CeFuBaoDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DACE6B7D5116354BB937BF9D /* libPods-CeFuBaoDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CeFuBaoDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D9A4378813813443949A39 /* libPods-CeFuBaoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CeFuBaoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A4F3DE1B6D145F6AD0E48 /* Pods-CeFuBaoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CeFuBaoDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CeFuBaoDemoUITests/Pods-CeFuBaoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE19BC121A4F7BC003545F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698E1777BAA233DEA7736F21 /* libPods-CeFuBaoDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BD921A4F7BD003545F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37300A5901723E0F7BC8AA57 /* libPods-CeFuBaoDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BE421A4F7BD003545F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9357672D1AA09EE1C402FB /* libPods-CeFuBaoDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B71D23821ABE443009F96ED /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B71D23921ABE443009F96ED /* aim.mp3 */,
+				5B71D23A21ABE443009F96ED /* more_near.mp3 */,
+				5B71D23B21ABE443009F96ED /* use_back_camera.mp3 */,
+				5B71D23C21ABE443009F96ED /* aim_uncapture.mp3 */,
+				5B71D23D21ABE443009F96ED /* ic_skin_analysis_step2.png */,
+				5B71D23E21ABE443009F96ED /* ic_skin_analysis_step3.png */,
+				5B71D23F21ABE443009F96ED /* ic_skin_analysis_step1.png */,
+				5B71D24021ABE443009F96ED /* nicety.mp3 */,
+				5B71D24121ABE443009F96ED /* short_nicety.mp3 */,
+				5B71D24221ABE443009F96ED /* more_far.mp3 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5BE19BBB21A4F7BC003545F6 = {
+			isa = PBXGroup;
+			children = (
+				5BE19BC621A4F7BC003545F6 /* CeFuBaoDemo */,
+				5BE19BDF21A4F7BD003545F6 /* CeFuBaoDemoTests */,
+				5BE19BEA21A4F7BD003545F6 /* CeFuBaoDemoUITests */,
+				5BE19BC521A4F7BC003545F6 /* Products */,
+				DCE131CE5D754F4FE6457070 /* Pods */,
+				61EC67D362C81292787594CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE19BC521A4F7BC003545F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE19BC421A4F7BC003545F6 /* CeFuBaoDemo.app */,
+				5BE19BDC21A4F7BD003545F6 /* CeFuBaoDemoTests.xctest */,
+				5BE19BE721A4F7BD003545F6 /* CeFuBaoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE19BC621A4F7BC003545F6 /* CeFuBaoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5BE19BC721A4F7BC003545F6 /* AppDelegate.h */,
+				5BE19BC821A4F7BC003545F6 /* AppDelegate.m */,
+				5BE19BCA21A4F7BC003545F6 /* ViewController.h */,
+				5BE19BCB21A4F7BC003545F6 /* ViewController.m */,
+				5BE1DED221A65778004705B1 /* CameraViewController.h */,
+				5BE1DED321A65778004705B1 /* CameraViewController.m */,
+				5B049AB121ACCDC600E58A6D /* PlaySound.h */,
+				5B049AB221ACCDC600E58A6D /* PlaySound.m */,
+				5B71D23321AB8953009F96ED /* TestSkinView.h */,
+				5B71D23421AB8953009F96ED /* TestSkinView.m */,
+				5B15FB2721A68DD400394A29 /* ImageUtility.h */,
+				5B15FB2821A68DD400394A29 /* ImageUtility.m */,
+				5B15FB2A21A6924E00394A29 /* UIImage+OrientationUp.h */,
+				5B15FB2B21A6924E00394A29 /* UIImage+OrientationUp.m */,
+				5B71D23821ABE443009F96ED /* resources */,
+				5BE19BCD21A4F7BC003545F6 /* Main.storyboard */,
+				5BE19BD021A4F7BD003545F6 /* Assets.xcassets */,
+				5BE19BD221A4F7BD003545F6 /* LaunchScreen.storyboard */,
+				5BE19BD521A4F7BD003545F6 /* Info.plist */,
+				5B71D23621AB8C1A009F96ED /* PrefixHeader.pch */,
+				5B71D23721ABC8B2009F96ED /* LMConst.h */,
+				5BE19BD621A4F7BD003545F6 /* main.m */,
+			);
+			path = CeFuBaoDemo;
+			sourceTree = "<group>";
+		};
+		5BE19BDF21A4F7BD003545F6 /* CeFuBaoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE19BE021A4F7BD003545F6 /* CeFuBaoDemoTests.m */,
+				5BE19BE221A4F7BD003545F6 /* Info.plist */,
+			);
+			path = CeFuBaoDemoTests;
+			sourceTree = "<group>";
+		};
+		5BE19BEA21A4F7BD003545F6 /* CeFuBaoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE19BEB21A4F7BD003545F6 /* CeFuBaoDemoUITests.m */,
+				5BE19BED21A4F7BD003545F6 /* Info.plist */,
+			);
+			path = CeFuBaoDemoUITests;
+			sourceTree = "<group>";
+		};
+		61EC67D362C81292787594CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D9A4378813813443949A39 /* libPods-CeFuBaoDemo.a */,
+				DACE6B7D5116354BB937BF9D /* libPods-CeFuBaoDemoTests.a */,
+				AD1072E1CA3C29BACE3C746E /* libPods-CeFuBaoDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE131CE5D754F4FE6457070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F6798F7B18281156C6862DE /* Pods-CeFuBaoDemo.debug.xcconfig */,
+				85F747D06CFC0E439B65B8B1 /* Pods-CeFuBaoDemo.release.xcconfig */,
+				08EE022E985439C3F29108B9 /* Pods-CeFuBaoDemoTests.debug.xcconfig */,
+				727C6624DC31643BD8FE1277 /* Pods-CeFuBaoDemoTests.release.xcconfig */,
+				CCF997F148A96E92FBD55764 /* Pods-CeFuBaoDemoUITests.debug.xcconfig */,
+				F44A4F3DE1B6D145F6AD0E48 /* Pods-CeFuBaoDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE19BC321A4F7BC003545F6 /* CeFuBaoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE19BF021A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemo" */;
+			buildPhases = (
+				7C8FA47FD072B4AB2630FE31 /* [CP] Check Pods Manifest.lock */,
+				5BE19BC021A4F7BC003545F6 /* Sources */,
+				5BE19BC121A4F7BC003545F6 /* Frameworks */,
+				5BE19BC221A4F7BC003545F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeFuBaoDemo;
+			productName = CeFuBaoDemo;
+			productReference = 5BE19BC421A4F7BC003545F6 /* CeFuBaoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BE19BDB21A4F7BD003545F6 /* CeFuBaoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE19BF321A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemoTests" */;
+			buildPhases = (
+				2CCD0FEE1BA3FFC0F5F94C03 /* [CP] Check Pods Manifest.lock */,
+				5BE19BD821A4F7BD003545F6 /* Sources */,
+				5BE19BD921A4F7BD003545F6 /* Frameworks */,
+				5BE19BDA21A4F7BD003545F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE19BDE21A4F7BD003545F6 /* PBXTargetDependency */,
+			);
+			name = CeFuBaoDemoTests;
+			productName = CeFuBaoDemoTests;
+			productReference = 5BE19BDC21A4F7BD003545F6 /* CeFuBaoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BE19BE621A4F7BD003545F6 /* CeFuBaoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE19BF621A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemoUITests" */;
+			buildPhases = (
+				55A4D11BA50F2620ED7FB43C /* [CP] Check Pods Manifest.lock */,
+				5BE19BE321A4F7BD003545F6 /* Sources */,
+				5BE19BE421A4F7BD003545F6 /* Frameworks */,
+				5BE19BE521A4F7BD003545F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE19BE921A4F7BD003545F6 /* PBXTargetDependency */,
+			);
+			name = CeFuBaoDemoUITests;
+			productName = CeFuBaoDemoUITests;
+			productReference = 5BE19BE721A4F7BD003545F6 /* CeFuBaoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE19BBC21A4F7BC003545F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = guanxu;
+				TargetAttributes = {
+					5BE19BC321A4F7BC003545F6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5BE19BDB21A4F7BD003545F6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5BE19BC321A4F7BC003545F6;
+					};
+					5BE19BE621A4F7BD003545F6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5BE19BC321A4F7BC003545F6;
+					};
+				};
+			};
+			buildConfigurationList = 5BE19BBF21A4F7BC003545F6 /* Build configuration list for PBXProject "CeFuBaoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE19BBB21A4F7BC003545F6;
+			productRefGroup = 5BE19BC521A4F7BC003545F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE19BC321A4F7BC003545F6 /* CeFuBaoDemo */,
+				5BE19BDB21A4F7BD003545F6 /* CeFuBaoDemoTests */,
+				5BE19BE621A4F7BD003545F6 /* CeFuBaoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE19BC221A4F7BC003545F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B71D24921ABE443009F96ED /* ic_skin_analysis_step1.png in Resources */,
+				5B71D24821ABE443009F96ED /* ic_skin_analysis_step3.png in Resources */,
+				5B71D24521ABE443009F96ED /* use_back_camera.mp3 in Resources */,
+				5B71D24C21ABE443009F96ED /* more_far.mp3 in Resources */,
+				5B71D24421ABE443009F96ED /* more_near.mp3 in Resources */,
+				5B71D24321ABE443009F96ED /* aim.mp3 in Resources */,
+				5B71D24B21ABE443009F96ED /* short_nicety.mp3 in Resources */,
+				5B71D24621ABE443009F96ED /* aim_uncapture.mp3 in Resources */,
+				5BE19BD421A4F7BD003545F6 /* LaunchScreen.storyboard in Resources */,
+				5B71D24721ABE443009F96ED /* ic_skin_analysis_step2.png in Resources */,
+				5BE19BD121A4F7BD003545F6 /* Assets.xcassets in Resources */,
+				5B71D24A21ABE443009F96ED /* nicety.mp3 in Resources */,
+				5BE19BCF21A4F7BC003545F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BDA21A4F7BD003545F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BE521A4F7BD003545F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CCD0FEE1BA3FFC0F5F94C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CeFuBaoDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A4D11BA50F2620ED7FB43C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CeFuBaoDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8FA47FD072B4AB2630FE31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CeFuBaoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE19BC021A4F7BC003545F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B15FB2921A68DD400394A29 /* ImageUtility.m in Sources */,
+				5BE19BCC21A4F7BC003545F6 /* ViewController.m in Sources */,
+				5BE1DED421A65778004705B1 /* CameraViewController.m in Sources */,
+				5B71D23521AB8953009F96ED /* TestSkinView.m in Sources */,
+				5BE19BD721A4F7BD003545F6 /* main.m in Sources */,
+				5B049AB321ACCDC600E58A6D /* PlaySound.m in Sources */,
+				5BE19BC921A4F7BC003545F6 /* AppDelegate.m in Sources */,
+				5B15FB2C21A6924E00394A29 /* UIImage+OrientationUp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BD821A4F7BD003545F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE19BE121A4F7BD003545F6 /* CeFuBaoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE19BE321A4F7BD003545F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE19BEC21A4F7BD003545F6 /* CeFuBaoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE19BDE21A4F7BD003545F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE19BC321A4F7BC003545F6 /* CeFuBaoDemo */;
+			targetProxy = 5BE19BDD21A4F7BD003545F6 /* PBXContainerItemProxy */;
+		};
+		5BE19BE921A4F7BD003545F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE19BC321A4F7BC003545F6 /* CeFuBaoDemo */;
+			targetProxy = 5BE19BE821A4F7BD003545F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BE19BCD21A4F7BC003545F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE19BCE21A4F7BC003545F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE19BD221A4F7BD003545F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE19BD321A4F7BD003545F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE19BEE21A4F7BD003545F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BE19BEF21A4F7BD003545F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE19BF121A4F7BD003545F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6798F7B18281156C6862DE /* Pods-CeFuBaoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8EPGBQ38K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CeFuBaoDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CeFuBaoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.lmsx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5BE19BF221A4F7BD003545F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F747D06CFC0E439B65B8B1 /* Pods-CeFuBaoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8EPGBQ38K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CeFuBaoDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CeFuBaoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.lmsx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5BE19BF421A4F7BD003545F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EE022E985439C3F29108B9 /* Pods-CeFuBaoDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8M4UJZAA;
+				INFOPLIST_FILE = CeFuBaoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CeFuBaoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeFuBaoDemo.app/CeFuBaoDemo";
+			};
+			name = Debug;
+		};
+		5BE19BF521A4F7BD003545F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C6624DC31643BD8FE1277 /* Pods-CeFuBaoDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8M4UJZAA;
+				INFOPLIST_FILE = CeFuBaoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CeFuBaoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeFuBaoDemo.app/CeFuBaoDemo";
+			};
+			name = Release;
+		};
+		5BE19BF721A4F7BD003545F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF997F148A96E92FBD55764 /* Pods-CeFuBaoDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8M4UJZAA;
+				INFOPLIST_FILE = CeFuBaoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CeFuBaoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeFuBaoDemo;
+			};
+			name = Debug;
+		};
+		5BE19BF821A4F7BD003545F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44A4F3DE1B6D145F6AD0E48 /* Pods-CeFuBaoDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF8M4UJZAA;
+				INFOPLIST_FILE = CeFuBaoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CeFuBaoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeFuBaoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE19BBF21A4F7BC003545F6 /* Build configuration list for PBXProject "CeFuBaoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE19BEE21A4F7BD003545F6 /* Debug */,
+				5BE19BEF21A4F7BD003545F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE19BF021A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE19BF121A4F7BD003545F6 /* Debug */,
+				5BE19BF221A4F7BD003545F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE19BF321A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE19BF421A4F7BD003545F6 /* Debug */,
+				5BE19BF521A4F7BD003545F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE19BF621A4F7BD003545F6 /* Build configuration list for PBXNativeTarget "CeFuBaoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE19BF721A4F7BD003545F6 /* Debug */,
+				5BE19BF821A4F7BD003545F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BE19BBC21A4F7BC003545F6 /* Project object */;
+}
